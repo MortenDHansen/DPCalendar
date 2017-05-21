@@ -42,6 +42,12 @@
 				       label="MOD_DPCALENDAR_UPCOMING_FIELD_FILTER_LABEL" description="MOD_DPCALENDAR_UPCOMING_FIELD_FILTER_DESC"/>
 				<field name="description_length" type="text" default="" size="10"
 				       label="MOD_DPCALENDAR_UPCOMING_FIELD_DESC_COUNT_LABEL" description="MOD_DPCALENDAR_UPCOMING_FIELD_DESC_COUNT_DESC"/>
+		       	<field name="show_text_date" type="radio" default="1" class="btn-group"
+				       label="MOD_DPCALENDAR_UPCOMING_FIELD_SHOW_TEXT_DATE_LABEL"
+				       description="MOD_DPCALENDAR_UPCOMING_FIELD_SHOW_TEXT_DATE_DESCRIPTION">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
 				<field name="show_location" type="radio" default="0" class="btn-group"
 				       label="MOD_DPCALENDAR_UPCOMING_FIELD_SHOW_LOCATION_LABEL"
 				       description="MOD_DPCALENDAR_UPCOMING_FIELD_SHOW_LOCATION_DESC">
